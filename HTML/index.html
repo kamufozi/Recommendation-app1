@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Recommendations App</title>
+    <link rel="stylesheet"href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Recommendations App</h1>
+    </header>
+    <main>
+        <section id="preferences">
+            <h2>Select your preferences</h2>
+            <form id="preferences-form">
+                <label for="music-genre">Favorite Music Genre:</label>
+                <select id="music-genre">
+                    <option value="rock">Rock</option>
+                    <option value="rnb">R&B</option>
+                    <option value="pop">pop</option>
+                    <option value="hiphop">Hip Hop</option>
+                </select>
+                <label for="movie">Favourite Movie:</label>
+                <input type="text" id="movie" placeholder="Enter a movie title you like">
+                <label for="book">Favourite Book:</label>
+                <input type="text" id="book" placeholder="Enter a book title you like">
+                <button type="submit">Get Recommendations</button>
+            </form>
+        </section>
+        <section id="Recommendations">
+            <h2>Your Recommendations</h2>
+            <div id="Recommendations-list">
+                <!--Recommendations will be displayed here-->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 Recommendations App</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>    
+</html>
